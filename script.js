@@ -2,9 +2,32 @@ document.addEventListener("DOMContentLoaded", function() {
     const toggleSidebarButton = document.getElementById('toggleSidebar');
     const closeSidebarButton = document.getElementById('closeSidebar');
     const sidebar = document.getElementById('sidebar');
-
+    const subS = document.getElementById('subscribe-success');
+    const subF = document.getElementById('subscribe-fail');
+    subS.classList.add('dontshow');
+    subF.classList.add('dontshow');
+    var inputbox = document.querySelector('.inputbox');
     var screenWidth = window.innerWidth; 
     var messageElement = document.getElementById('subB'); 
+    messageElement.addEventListener('click', () => {
+        const str = inputbox.value.split("");
+        let t = false;
+        for(let i=0; i<str.length; i++) {
+            if(str[i] === '@') {
+                t = true;
+                break;
+            } else {
+                t = false;
+            }
+        }
+        if(t) {
+            subF.classList.add('dontshow');
+            subS.classList.remove('dontshow');
+        } else {
+            subS.classList.add('dontshow')
+            subF.classList.remove('dontshow')
+        }
+    })
     if (screenWidth < 1000) { 
         messageElement.innerText = "\u2192"; 
     } else {

@@ -182,3 +182,7 @@
 .navbar-gold {
     transition: color 0.5s ease, transform 0.5s ease;
 }
+
+.h700 {
+    height: 700px;
+}

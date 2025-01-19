@@ -352,3 +352,7 @@
         transform: translateX(-100%);
     }
 }
+
+.dontshow {
+    display: none;
+}
