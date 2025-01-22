@@ -204,13 +204,13 @@
     text-align: center;
     grid-template-columns: repeat(4, 1fr);
     padding: 20px;
-    width: 85vw;
+    width: 85%;
     row-gap: 20px;
 }
 
 .grid-card {
     height: 250px;
-    border-radius: 16px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -257,8 +257,8 @@
 
 .card-title {
     width: 100%;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     height: 100px;
     z-index: 10;
     position: absolute;

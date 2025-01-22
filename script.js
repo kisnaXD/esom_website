@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             subS.classList.add('dontshow')
             subF.classList.remove('dontshow')
         }
+        inputbox.value = ''
     })
     if (screenWidth < 1000) { 
         messageElement.innerText = "\u2192"; 
