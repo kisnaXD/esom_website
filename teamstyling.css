@@ -298,6 +298,12 @@
     gap: 80px;
 }
 
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
 .grid-card {
     display: flex;
     justify-content: center;
@@ -355,4 +361,18 @@
     bottom: 20%;
     height: 80%;
     width: 100%;
+}
+
+.cont-phone {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .cont-phone {
+        display: block;
+    }
+
+    .cont-pc {
+        display: none;
+    }
 }

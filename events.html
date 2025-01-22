@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Metrophobic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/niagara-solid" rel="stylesheet">
-        <link href="spstyling.css" rel="stylesheet" />
+        <link href="events-styling.css" rel="stylesheet" />
     </head>
     <body class="flex justify-center items-center flex-col">
         <!--Navbar Starts-->
@@ -20,7 +20,7 @@
                 <li class="navbar-gold"><a href='index.html'>Home</a></li>
                 <li class="navbar-gold ml-6"><a href='research.html'>Our Research</a></li>
                 <li class="navbar-gold ml-6"><a href='team.html'>Our Team</a></li>
-                <li class="navbar-gold ml-6"><a href='#'>Our Events</a></li>
+                <li class="navbar-gold ml-6"><a href='events.html'>Our Events</a></li>
                 <li class="navbar-gold ml-6"><a href='#'>Be a Member</a></li>
             </ul>
         </div>
@@ -38,7 +38,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="research.html">Our Research</a></li>
                 <li><a href="team.html">Our Team</a></li>
-                <li><a href="#">Our Events</a></li>
+                <li><a href="events.html">Our Events</a></li>
                 <li><a href="#">Be A Member</a></li>
             </ul>
             <div class="mt-auto mb-16 items-center flex flex-col text-white">
@@ -58,7 +58,150 @@
         </div>
         <!--Sidebar Ends-->
         <!--Most Recent Event Section Starts-->
+        <div class="w-full h-auto flex mt-8 flex-col justify-center items-center">
+            <h1 class="text-[4rem] font-bold font-Outfit text-black">Our Events</h1>
+            <h1 class="text-[2.5rem] font-bold font-Outfit text-black text-left w-[80%] mt-4">Our Latest Event</h1>
+            <div class="relative main-event h-[500px] w-[80%] mt-2">
+                <div class="absolute bottom-8 left-8">
+                    <h1 class="text-white font-Montserrat font-bold text-[3rem]">
+                        Event Name
+                    </h1>
+                    <h1 class="text-white font-Montserrat underline rem17">
+                        January 2025
+                    </h1>
+            </div>
+        </div>
         <!--Most Recent Event Section Ends-->
+        <!--Upcoming Events Section Begins-->
+        <div class="w-full h-auto flex mt-8 flex-col justify-center items-center mb-8">
+            <h1 class="text-[2.5rem] font-bold font-Outfit text-black text-left w-[80%] mt-8">Upcoming Events</h1>
+            <div class="carousel-container-container">
+                <div class="carousel-container">
+                    <button id='larrow' class="arrow left-arrow">&#9664;</button>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="card">
+                                <div class="card-image w-full h-[70%]">
+                                    <img src="./assets/esom_event_banner.png" class="object-cover"/>
+                                </div>
+                                <div class="card-info w-full h-[75%]">
+                                    <div class='flex justify-between items-center w-[90%] h-auto mt-4'>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-[1.1rem]">Online</p>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-right text-[1.1rem]">Free</p>
+                                    </div>
+                                    <div class="flex justify-center items-center w-[90%] h-auto">
+                                        <h1 class="font-Montserrat text-left text-black/80 w-[90%] font-bold text-[2rem]">Event Name</h1>
+                                    </div>
+                                    <div class="flex justify-between items-center mt-4 w-[90%] h-auto">
+                                        <div class="flex w-[45%] justify-center items-center">
+                                            <i class="fa-regular fa-clock text-gray-400"></i>
+                                            <p class="ml-2 text-gray-400 text-[1rem] font-Montserrat">6 Days Left</p>
+                                        </div>
+                                        <div class="w-[40px] h-[40px] flex justify-center items-center rounded-full cardButton">
+                                            <i class="fa-solid fa-arrow-up-right-dots text-gray-400 rightIcon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image w-full h-[70%]">
+                                    <img src="./assets/esom_event_banner.png" class="object-cover"/>
+                                </div>
+                                <div class="card-info w-full h-[75%]">
+                                    <div class='flex justify-between items-center w-[90%] h-auto mt-4'>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-[1.1rem]">Online</p>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-right text-[1.1rem]">Free</p>
+                                    </div>
+                                    <div class="flex justify-center items-center w-[90%] h-auto">
+                                        <h1 class="font-Montserrat text-left text-black/80 w-[90%] font-bold text-[2rem]">Event Name</h1>
+                                    </div>
+                                    <div class="flex justify-between items-center mt-4 w-[90%] h-auto">
+                                        <div class="flex w-[45%] justify-center items-center">
+                                            <i class="fa-regular fa-clock text-gray-400"></i>
+                                            <p class="ml-2 text-gray-400 text-[1rem] font-Montserrat">6 Days Left</p>
+                                        </div>
+                                        <div class="w-[40px] h-[40px] flex justify-center items-center rounded-full cardButton">
+                                            <i class="fa-solid fa-arrow-up-right-dots text-gray-400 rightIcon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image w-full h-[70%]">
+                                    <img src="./assets/esom_event_banner.png" class="object-cover"/>
+                                </div>
+                                <div class="card-info w-full h-[75%]">
+                                    <div class='flex justify-between items-center w-[90%] h-auto mt-4'>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-[1.1rem]">Online</p>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-right text-[1.1rem]">Free</p>
+                                    </div>
+                                    <div class="flex justify-center items-center w-[90%] h-auto">
+                                        <h1 class="font-Montserrat text-left text-black/80 w-[90%] font-bold text-[2rem]">Event Name</h1>
+                                    </div>
+                                    <div class="flex justify-between items-center mt-4 w-[90%] h-auto">
+                                        <div class="flex w-[45%] justify-center items-center">
+                                            <i class="fa-regular fa-clock text-gray-400"></i>
+                                            <p class="ml-2 text-gray-400 text-[1rem] font-Montserrat">6 Days Left</p>
+                                        </div>
+                                        <div class="w-[40px] h-[40px] flex justify-center items-center rounded-full cardButton">
+                                            <i class="fa-solid fa-arrow-up-right-dots text-gray-400 rightIcon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image w-full h-[70%]">
+                                    <img src="./assets/esom_event_banner.png" class="object-cover"/>
+                                </div>
+                                <div class="card-info w-full h-[75%]">
+                                    <div class='flex justify-between items-center w-[90%] h-auto mt-4'>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-[1.1rem]">Online</p>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-right text-[1.1rem]">Free</p>
+                                    </div>
+                                    <div class="flex justify-center items-center w-[90%] h-auto">
+                                        <h1 class="font-Montserrat text-left text-black/80 w-[90%] font-bold text-[2rem]">Event Name</h1>
+                                    </div>
+                                    <div class="flex justify-between items-center mt-4 w-[90%] h-auto">
+                                        <div class="flex w-[45%] justify-center items-center">
+                                            <i class="fa-regular fa-clock text-gray-400"></i>
+                                            <p class="ml-2 text-gray-400 text-[1rem] font-Montserrat">6 Days Left</p>
+                                        </div>
+                                        <div class="w-[40px] h-[40px] flex justify-center items-center rounded-full cardButton">
+                                            <i class="fa-solid fa-arrow-up-right-dots text-gray-400 rightIcon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image w-full h-[70%]">
+                                    <img src="./assets/esom_event_banner.png" class="object-cover"/>
+                                </div>
+                                <div class="card-info w-full h-[75%]">
+                                    <div class='flex justify-between items-center w-[90%] h-auto mt-4'>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-[1.1rem]">Online</p>
+                                        <p class="font-Montserrat text-gray-400 w-[30%] text-right text-[1.1rem]">Free</p>
+                                    </div>
+                                    <div class="flex justify-center items-center w-[90%] h-auto">
+                                        <h1 class="font-Montserrat text-left text-black/80 w-[90%] font-bold text-[2rem]">Event Name</h1>
+                                    </div>
+                                    <div class="flex justify-between items-center mt-4 w-[90%] h-auto">
+                                        <div class="flex w-[45%] justify-center items-center">
+                                            <i class="fa-regular fa-clock text-gray-400"></i>
+                                            <p class="ml-2 text-gray-400 text-[1rem] font-Montserrat">6 Days Left</p>
+                                        </div>
+                                        <div class="w-[40px] h-[40px] flex justify-center items-center rounded-full cardButton">
+                                            <i class="fa-solid fa-arrow-up-right-dots text-gray-400 rightIcon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id='rarrow' class="arrow right-arrow">&#9654;</button>
+                </div>
+            </div>
+        </div>
+        <!--Upcoming Events Section Ends-->
         <!--Footer Starts-->
         <div class="w-full flex flex-col justify-center items-center grayback">
             <div class='mt16 flex justify-between width90 items-center'>
@@ -112,6 +255,6 @@
             </div>
         </div>
         <!--Footer Ends-->
-        <script src="./spscript.js"></script>
+        <script src="./events-script.js"></script>
     </body>
 </html>
