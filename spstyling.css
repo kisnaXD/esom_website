@@ -117,6 +117,14 @@
     }
 }
 
+.font-Montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.font-Outfit {
+    font-family: "Outfit", serif;
+}
+
 .box150 {
     height: 120px;
     width: 120px;

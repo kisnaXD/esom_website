@@ -319,6 +319,14 @@
     background-color: transparent;
 }
 
+.font-Montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.font-Outfit {
+    font-family: "Outfit", serif;
+}
+
 .grid-card-pink {
     display: flex;
     justify-content: center;

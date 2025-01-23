@@ -356,3 +356,11 @@
 .dontshow {
     display: none;
 }
+
+.font-Montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.font-Outfit {
+    font-family: "Outfit", serif;
+}

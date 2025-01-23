@@ -274,13 +274,20 @@
         flex: 0 0 calc(33.3333333% - 14px);
     }
 }
-  
+
+.font-Montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.font-Outfit {
+    font-family: "Outfit", serif;
+}
+
 .arrow {
-    background-color: white;
+    background-color: transparent;
     color: black;
     border: none;
     border-radius: 50%;
-    border: 2px solid rgba(205,205,205,0.2);
     width: 40px;
     height: 40px;
     display: flex;
