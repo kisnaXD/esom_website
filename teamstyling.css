@@ -84,6 +84,11 @@
 
 .footer-list-item {
     font-size: 1.2rem;
+    transition: all 0.5s ease;
+}
+
+.footer-list-item:hover {
+    color: black;
 }
 
 .rowcol {
@@ -382,5 +387,15 @@
 
     .cont-pc {
         display: none;
+    }
+}
+
+.selfstarter {
+    align-self: start;
+}
+
+@media (max-width: 1024px) {
+    .selfstarter {
+        align-self: center;
     }
 }

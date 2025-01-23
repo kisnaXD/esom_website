@@ -94,6 +94,11 @@
 
 .footer-list-item {
     font-size: 1.2rem;
+    transition: all 0.5s ease;
+}
+
+.footer-list-item:hover {
+    color: black;
 }
 
 .rowcol {
@@ -219,6 +224,16 @@
     align-items: center;
     gap: 10px;
     width: calc(80% + 100px);
+}
+
+.selfstarter {
+    align-self: start;
+}
+
+@media (max-width: 1024px) {
+    .selfstarter {
+        align-self: center;
+    }
 }
 
 .carousel-container-container {
