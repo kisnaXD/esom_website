@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Metrophobic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/niagara-solid" rel="stylesheet">
-        <link href="spstyling.css" rel="stylesheet" />
+        <link href="memberstyling.css" rel="stylesheet" />
     </head>
     <body class="flex justify-center items-center flex-col">
         <!--Navbar Starts-->
@@ -57,10 +57,90 @@
             </div>
         </div>
         <!--Sidebar Ends-->
-        <div class="w-full h-auto flex flex-col justify-center items-center mb-12">
-            <h1 class="text-black font-Outfit font-bold rem3 text-center mt-12 mb-12">ESOM Research Paper 1</h1>
-            <iframe src="./assets/esom_mockpdf.pdf" class="width85 h700 border-0"></iframe>
+        <!--Be a Member form Section starts-->
+        <h1 class="font-Outfit font-bold text-[3rem] text-black mt-8">Be a Member</h1>
+        <div class="flex flex-col justify-center items-center w-full h-auto mt-4 mb-4 lgbg">
+            <div class="background">
+                <div class="scroll-row">
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                </div>
+                <div class="scroll-row reverse">
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                    <div class="box">1</div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center items-center w70 formBox mt-8 mb-8">
+                <h1 class="font-Outfit font-bold rem225 text-center text-black mt-8 mb-4 w-full">Fill this form and we will reach out to you!</h1>
+                <div class="flex flexcol justify-between items-center w-[80%] h-auto mt-4">
+                    <div class="flex flex-col justify-center items-center w-[100px]">
+                        <p class="text-[1.5rem] centered font-Outfit text-gray-400 w-full text-left h-auto">
+                            Name <span class="text-red-500">*</span>
+                        </p>
+                        <input id="namebox" class="inputboxform centered font-Outfit text-[0.85rem] justify-self-start w-[300px] self-start text-gray-500 bg-transparent" type="text" placeholder="Enter Name" />
+                    </div>
+                    <div class="flex flex-col justify-center items-center w-[100px]">
+                        <p class="text-[1.5rem] font-Outfit text-gray-400 centered w-full text-left h-auto">
+                            Registration Number <span class="text-red-500">*</span>
+                        </p>
+                        <input id="regbox" class="inputboxform centered font-Outfit text-gray-500 bg-transparent " type="text" placeholder="Enter Reg No." />
+                    </div>
+                </div>
+                <div class="flex flexcol justify-between items-center w-[80%] h-auto mt-4 phone-margin">
+                    <div class="flex flex-col justify-center items-center w-[100px]">
+                        <p class="text-[1.5rem] font-Outfit centered text-gray-400 w-full text-left h-auto">
+                            Email <span class="text-red-500">*</span>
+                        </p>
+                        <input id="mailbox" class="inputboxform centered font-Outfit text-[0.85rem] justify-self-start w-[300px] self-start text-gray-500 bg-transparent" type="text" placeholder="Enter Email" />
+                    </div>
+                    <div class="flex flex-col justify-center items-center w-[100px]">
+                        <p class="text-[1.5rem] font-Outfit text-gray-400 centered w-full text-left h-auto">
+                            Phone Number <span class="text-red-500">*</span>
+                        </p>
+                        <input id="numbox" class="inputboxform centered font-Outfit text-gray-500 bg-transparent" type="text" placeholder="Enter Phone No." />
+                    </div>
+                </div>
+                <div class="flex flexcol justify-between items-center w-[80%] h-auto mt-4 mb-8 phone-margin">
+                    <div class="flex flex-col justify-center items-center w-[100px]">
+                        <p class="text-[1.5rem] font-Outfit centered text-gray-400 w-full text-left h-auto">
+                            Branch <span class="text-red-500">*</span>
+                        </p>
+                        <input id="branchbox" class="inputboxform centered font-Outfit text-[0.85rem] justify-self-start w-[300px] self-start text-gray-500 bg-transparent" type="text" placeholder="Enter Branch" />
+                    </div>
+                    <div class="flex flex-col justify-center items-center w-[100px]">
+                        <p class="text-[1.5rem] font-Outfit text-gray-400 centered w-full text-left h-auto">
+                            Section <span class="text-red-500">*</span>
+                        </p>
+                        <input id="secbox" class="inputboxform centered font-Outfit text-gray-500 bg-transparent" type="text" placeholder="Enter Section" />
+                    </div>
+                </div>
+                <div class='flex justify-center items-center w-full h-auto mt-4'>
+                    <div class="flex justify-center items-center p-8 subB font-Outfit cursor-pointer">
+                        Submit
+                    </div>
+                </div>
+                <div class='flex justify-center items-center w-full h-auto mt-2 mb-8'>
+                    <p class="text-gray-400 font-Outfit text-[0.85rem]">You do not need to worry, your data is safe with us</p>
+                </div>
+            </div>
         </div>
+        <!--Be a Member form Section ends-->
         <!--Footer Starts-->
         <div class="w-full flex flex-col justify-center items-center grayback">
             <div class='mt16 flex justify-between width90 items-center'>
@@ -81,7 +161,7 @@
                 <img src="./assets/mahe_logo.png" class="box120" />
             </div>
             <div class="mt24 flex rowcol justify-between width85 items-center">
-                <div class="flex flex-col justify-evenly  self-start items-center h-auto w-auto">
+                <div class="flex flex-col justify-evenly items-center self-start h-auto w-auto">
                     <h1 class="text-black font-Montserrat rem1 text-center md:text-left w-full font-bold">Home</h1>
                     <ul class="list-none graytext font-Montserrat md:text-left text-center w-full footer-list">
                         <li class="footer-list-item"><a href='#'>Our Team</a></li>
@@ -121,6 +201,6 @@
             </div>
         </div>
         <!--Footer Ends-->
-        <script src="./spscript.js"></script>
+        <script src="./memberscript.js"></script>
     </body>
 </html>
